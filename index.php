@@ -1,7 +1,7 @@
 <?php
 require_once 'dataset.php';
 
-$random_number = rand(0, count(DATASETS));
+$random_number = rand(0, (count(DATASETS) - 1));
 ?>
 <!DOCTYPE html>
 <html lang='en'>
